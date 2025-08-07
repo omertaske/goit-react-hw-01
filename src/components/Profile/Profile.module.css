@@ -1,0 +1,48 @@
+.profile{
+    
+    border: 5px solid rgb(139, 139, 130);
+    border-radius: 8px;
+      width: 300px;  
+  height: 360px;  
+  margin-bottom: 20px;
+  top: 15px;
+  left: 15px;
+  position: absolute;
+  overflow: auto;
+  
+  
+
+}
+.profile img{
+    padding-top: 3px;
+    width: 100px;
+}
+.profile p{
+    font-weight: 700;
+    font-style: italic;
+    font-size: larger;
+   
+}
+.profile ul {
+    font-weight: 500;
+    text-decoration: underline;
+     display: flex;
+     list-style: none;
+     gap: 5px;
+       border-bottom: 1px solid transparent;
+        align-items: flex-start;
+        
+  
+}
+.profile ul li {
+    margin-right: 10px;
+    color: #fff;
+    flex-direction: column;
+     display: flex;
+     align-items: center;
+}
+.profile ul li span {
+  font-size: 18px;
+  color: #e2caca;
+  margin-top: 4px;
+}
