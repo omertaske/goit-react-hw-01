@@ -2,8 +2,10 @@
 import './App.css'
 import Profile from './components/Profile/Profile'
 import FriendList from './components/FriendList/FriendList'
+import TransactionHistory from './components/TransactionHistory/TransactionHistory'
 import  userData  from "./userData.json";
 import friendsas from "./friendsList.json";
+import transactions from "./transactions.json";
 
 function App() {
   
@@ -22,13 +24,10 @@ function App() {
      
 
 
-      <div>
-        <button>Sosyal Medya Ödevi</button>
-
-      </div>
-
       <FriendList friends={friendsas}/>
 
+
+    <TransactionHistory items={transactions}/>
 
 
 

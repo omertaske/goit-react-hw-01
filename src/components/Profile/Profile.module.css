@@ -1,48 +1,44 @@
-.profile{
-    
-    border: 5px solid rgb(139, 139, 130);
-    border-radius: 8px;
-      width: 300px;  
-  height: 360px;  
-  margin-bottom: 20px;
-  top: 15px;
-  left: 15px;
-  position: absolute;
-  overflow: auto;
-  
-  
+.profile {
+  width: 300px;
+  margin: 2rem auto 0; /* ortala, yukarıdan boşluk bırak */
+  background-color: #da9c9c;
+  border-radius: 12px;
+border: 6px solid #03003a;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
 
+
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  margin-bottom: 15px;
 }
-.profile img{
-    padding-top: 3px;
-    width: 100px;
+
+.profile p {
+  margin: 10px 0;
 }
-.profile p{
-    font-weight: 700;
-    font-style: italic;
-    font-size: larger;
-   
-}
+
+
+
 .profile ul {
-    font-weight: 500;
-    text-decoration: underline;
-     display: flex;
-     list-style: none;
-     gap: 5px;
-       border-bottom: 1px solid transparent;
-        align-items: flex-start;
-        
-  
+  display: flex;
+  background-color: #5c8ec0;
+  border-top: 3px solid #03003a;
+  border-bottom: 3px solid #03003a;
 }
-.profile ul li {
-    margin-right: 10px;
-    color: #fff;
-    flex-direction: column;
-     display: flex;
-     align-items: center;
+
+.profile li {
+  flex: 1;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
-.profile ul li span {
-  font-size: 18px;
-  color: #e2caca;
-  margin-top: 4px;
-}
+
+
